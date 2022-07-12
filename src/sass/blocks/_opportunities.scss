@@ -1,0 +1,103 @@
+.opportunities {
+    background-color: #111111;
+    min-height: 926px;
+    padding: 110px 0 112px;
+    text-align: center;
+    box-sizing: border-box;
+    &__header {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        color: #fff;
+        margin-bottom: 85px;
+        span {
+            color: #fcb500;
+        }
+    }
+    &__price{
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 57px;
+        color: #fff;
+        margin-top: 85px;
+        .old_price{                             
+            margin-right: 32px;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 57px;
+            color: #ADADAD;
+            text-align: center;
+            text-decoration: line-through;
+        }
+        .new_price {
+            font-family: Rubik, sans-serif;
+        }
+    }
+    &__components {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 168px;
+        margin-top: 59px;
+        margin-bottom: 45px;
+        &__item{
+            &:first-child {
+                width: 193px;
+                height: 168px;
+                background: url('../img/ginger.png') center center/cover no-repeat;
+                margin-bottom: 78px;
+            }
+            &:nth-child(2) {
+                width: 160px;
+                height: 480px;
+                background: url('../img/nootris.png') center center/cover no-repeat;
+                transform: rotate(-90deg);
+            }
+            &:nth-child(3) {
+                width: 192px;
+                height: 160px;
+                background: url('../img/vorus.png') center center/cover no-repeat;
+                margin-bottom: 78px;
+            }
+        }
+    }
+    &__formula {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+        &__item {
+            color: #fff;
+            span {
+                color: #FCB500;
+            }
+            &:nth-child(2n+1) {
+                margin-top: 33px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                width: 193px;
+                text-align: center;
+            }
+            &:nth-child(2) {
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 43px;
+                span{
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+    .button {
+        width: 256px;
+        height: 50px;
+        background-color: #FCB500;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

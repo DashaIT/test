@@ -1,1 +1,17 @@
-@import 'blocks'
+*{
+    font-family: Rubik, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+  
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/opportunities';
+
+body {
+    margin: 0;
+}
