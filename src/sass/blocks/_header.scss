@@ -15,8 +15,10 @@ header{
         justify-content: space-between;
         padding-left: 100px;
         margin: 0;
+        list-style: none;
         &_item{
             padding-right: 40px;
+            text-align: center;            
             a{
                 text-decoration: none;
                 color: #fff;
@@ -27,15 +29,9 @@ header{
             }
         }
     }
-    .hamburger{
-        display: none;        
-		position: absolute;
-		right: 10px;
-		top: 50%;
-		transform: translateY(-50%);
-		width: 26px;
-		height: 12px;
-    }
+    // .hamburger{
+    //     display: none; 
+    // }
     .trash {
         padding-left: 36px;
     }
